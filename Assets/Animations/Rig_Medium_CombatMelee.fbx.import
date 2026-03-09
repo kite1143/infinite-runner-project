@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b6mbvevkhun4s"
-path="res://.godot/imported/Rig_Medium_General.fbx-7420303dc00bd93071a27db41a660910.scn"
+uid="uid://b3qc5cfdkpwmw"
+path="res://.godot/imported/Rig_Medium_CombatMelee.fbx-52df7b58c1ec59e42217b437d8fa21c3.scn"
 
 [deps]
 
-source_file="res://Assets/Player/Rig_Medium/Rig_Medium_General.fbx"
-dest_files=["res://.godot/imported/Rig_Medium_General.fbx-7420303dc00bd93071a27db41a660910.scn"]
+source_file="res://Assets/Animations/Rig_Medium_CombatMelee.fbx"
+dest_files=["res://.godot/imported/Rig_Medium_CombatMelee.fbx-52df7b58c1ec59e42217b437d8fa21c3.scn"]
 
 [params]
 

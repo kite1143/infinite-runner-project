@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="InfiniteRunner"
+run/main_scene="uid://cgjq1gu4kpg23"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Assets/": "teal"
+}
 
 [physics]
 
