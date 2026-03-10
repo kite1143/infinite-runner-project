@@ -1,7 +1,0 @@
-res://Prototype/world.tscn
-res://addons/phantom_camera/themes/theme.tres
-res://Player/character_base.tscn
-res://Player/StateMachineBase/run_state.gd
-res://Player/character_knight.tscn
-res://Player/StateMachineBase/state_machine.gd
-res://Player/StateMachineBase/dash_left_state.gd
