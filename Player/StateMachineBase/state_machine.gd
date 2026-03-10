@@ -35,4 +35,5 @@ func change_state(new_state_name: String) -> void:
 	current_state = states.get(new_state_name.to_lower())
 	
 	if current_state:
+		print('change to', current_state)
 		current_state.enter()

@@ -203,11 +203,15 @@ character_base = NodePath("..")
 script = ExtResource("4_gxcfu")
 run_state = NodePath("../Run")
 
-[node name="Run" type="Node" parent="StateMachine" unique_id=542133267]
+[node name="Run" type="Node" parent="StateMachine" unique_id=542133267 node_paths=PackedStringArray("dash_left_state", "dash_right_state", "jump_state")]
 script = ExtResource("5_gxcfu")
+dash_left_state = NodePath("../DashLeft")
+dash_right_state = NodePath("../DashRight")
+jump_state = NodePath("../JumpStart")
 
-[node name="DashLeft" type="Node" parent="StateMachine" unique_id=2117233332]
+[node name="DashLeft" type="Node" parent="StateMachine" unique_id=2117233332 node_paths=PackedStringArray("run_state")]
 script = ExtResource("6_jur0o")
+run_state = NodePath("../Run")
 
 [node name="DashRight" type="Node" parent="StateMachine" unique_id=505964140]
 script = ExtResource("7_5xxrg")
